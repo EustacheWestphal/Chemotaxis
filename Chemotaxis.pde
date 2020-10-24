@@ -70,22 +70,22 @@ class Bacteria
         myX = myX -((int)(Math.random()*3)-1)*mySpeed;
         myY = myY +((int)(Math.random()*3)-1)*mySpeed;
         }
-        if(myX > 250 && myY > 250)
+        if(myX > 350 && myY > 350)
         {
             myY = 200;
             myX = 200;
         }
-        else if(myX > 250 && myY < 100)   
+        else if(myX > 350 && myY < 50)   
         {
             myY = 200;
             myX = 200;
         }
-        else if(myX < 100 && myY < 100)
+        else if(myX < 50 && myY < 500)
         {
             myY = 200;
             myX = 200;
         }  
-        else if(myX < 100 && myY > 250)  
+        else if(myX < 50 && myY > 350)  
         {
             myY = 200;
             myX = 200;
